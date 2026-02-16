@@ -1,0 +1,13 @@
+body{
+  font-family: Arial;
+  background:#0F172A;
+  color:white;
+  margin:0;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  padding:15px;
+  background:#1e293b;
+}

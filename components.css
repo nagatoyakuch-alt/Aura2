@@ -1,0 +1,16 @@
+button{
+  padding:10px 15px;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  background:#2563EB;
+  color:white;
+}
+
+input, textarea{
+  padding:10px;
+  border-radius:8px;
+  border:none;
+  width:100%;
+  margin-bottom:10px;
+}
