@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AURA</title>
 
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/components.css">
+<link rel="stylesheet" href="assets/css/animations.css">
+<link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+<header class="navbar">
+  <div class="logo">AURA</div>
+  <a href="login.html">Entrar</a>
+</header>
+
+<section class="hero">
+  <h1>Bem-vindo à AURA</h1>
+  <button onclick="location.href='login.html'">Começar</button>
+</section>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("sw.js");
+}
+</script>
+
+</body>
+</html>

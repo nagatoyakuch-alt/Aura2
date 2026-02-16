@@ -1,0 +1,8 @@
+{
+  "name": "AURA",
+  "short_name": "AURA",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0F172A",
+  "theme_color": "#2563EB"
+}

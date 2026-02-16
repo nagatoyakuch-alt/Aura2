@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Perfil</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/profile.css">
+</head>
+
+<body>
+
+<header>
+    Perfil do Usuário
+</header>
+
+<div class="profile-container">
+
+    <div class="profile-header">
+        <img src="assets/default.png" class="profile-photo" id="profilePhoto">
+
+        <div class="profile-name" id="profileName">
+            Nome do Usuário
+        </div>
+
+        <div class="profile-stats">
+            <div>
+                <strong id="followersCount">0</strong><br>
+                Seguidores
+            </div>
+            <div>
+                <strong id="followingCount">0</strong><br>
+                Seguindo
+            </div>
+        </div>
+
+        <div class="profile-actions">
+            <button onclick="followUser()">Seguir</button>
+        </div>
+    </div>
+
+    <div class="profile-posts" id="profilePosts">
+        <!-- Posts aparecem aqui -->
+    </div>
+
+</div>
+
+<script src="js/follow.js"></script>
+
+</body>
+
+</html>
